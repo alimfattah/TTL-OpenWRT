@@ -13,7 +13,6 @@ Pernahkah anda menggunakan paket internet seluler unlimited ?, pasti beberapa da
 TTL merupakan sebuah nilai (8-bit) di header Internet Protocol (IP) oleh host pengirim yang nilainya akan selalu berkurang ketika router forwarding paket IP, range TTL dari 255 sampai 0. Jika paket ttl mencapai 0 maka kegiatan transfer paket dihentikan dan router mengirimkan pesan ICMP "time exceed message" ke pengirim awal. Sehingga menghentikan transfer paket pada  sebuah jaringan setelah beberapa waktu tertentu, hal ini dapat mengantisipasi terjadinya transfer paket data berulang terus menerus. 
 </p>
 
-Work in Progress........
 Default TTL and Hop Limit values differ across various operating systems. Here are the defaults for a few:
 <ol>
   <li>Linux: 64 for TCP, UDP and ICMP</li>
@@ -22,3 +21,5 @@ Default TTL and Hop Limit values differ across various operating systems. Here a
 
 
 </ol>
+
+Work in Progress........
