@@ -1,3 +1,13 @@
+# :warning: For Educational Purposes Only :exclamation:
+
+Disclaimer :
+1. For educational purposes only.
+2. Don't use them for illegal activities.
+3. You are the only responsible for your actions :exclamation:
+
+:see_no_evil: :hear_no_evil: :speak_no_evil:
+
+
 TTL (Time To Live)
 
 Pernahkah anda menggunakan paket internet seluler unlimited ?, pasti beberapa dari anda pernah dengar dan membelinya. Provider internet seluler sering menggunakan 
