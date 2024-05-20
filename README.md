@@ -3,7 +3,7 @@
 Disclaimer :
 1. For educational purposes only.
 2. Don't use them for illegal activities.
-3. You are the only responsible for your actions :exclamation:
+3. You alone are responsible for your actions :exclamation:
 
 :see_no_evil: :hear_no_evil: :speak_no_evil: 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -14,3 +14,11 @@ TTL merupakan sebuah nilai (8-bit) di header Internet Protocol (IP) oleh host pe
 </p>
 
 Work in Progress........
+Default TTL and Hop Limit values differ across various operating systems. Here are the defaults for a few:
+<ol>
+  <li>Linux: 64 for TCP, UDP and ICMP</li>
+  <li>Windows 10: 128 for TCP, UDP and ICMP</li>
+  <li>MacOS: 64 for TCP, UDP and ICMP</li>
+
+
+</ol>
