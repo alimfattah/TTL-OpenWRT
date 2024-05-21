@@ -23,7 +23,25 @@ macOS  - ping localhost
 Linux - sysctl net.ipv4.ip_default_ttl
 
 ------------------------------------------------------------------------------------------------------------------------------
+**Change TTL IPv4**
+<ol>
+  <li> Windows - run command shell on terminal as admin
+    
+    netsh int ipv4 set glob defaultcurhoplimit=65 
+    
+  </li>
+  <li> Linux - execute this command in the console as temporary setting
+  
+    sudo sysctl -w net.ipv4.ip_default_ttl=65
+                    or
+    sudo bash -c 'echo 65 > /proc/sys/net/ipv4/ip_default_ttl'
+            
+  </li>
+  
+</ol>
 
+
+------------------------------------------------------------------------------------------------------------------------------
 **Default TTL** and **Hop Limit** values differ across various operating systems. Here are the defaults for a few:
 <ol>
   <li>Linux: 64 for TCP, UDP, and ICMP</li>
